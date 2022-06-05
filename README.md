@@ -19,6 +19,8 @@ Chess page
 1. Updates
 1. Gallery
 1. Call Us
+1. Price and Rates
+1. Open new Sripe account for Chess?
 
 Facts
 
@@ -29,3 +31,11 @@ Facts
 - current site: http://ashwoodchess.com/
 - protect home address:
   - https://zaubee.com/biz/ashwood-knights-chess-club-4zfjbm9q
+
+## helpful commands
+
+start a web server:
+
+```js
+npx http-server -p 8080 .
+```
