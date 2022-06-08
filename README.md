@@ -4,6 +4,13 @@ Chess page
 
 # To-do
 
+1. Transfer homepage content
+1. make navigation bar: updates, aboutm gallery, contact
+1. structure navs
+1. verify copyright syntaxt
+
+# Desired Navs
+
 1. homepage
 1. tournaments
 1. payments
