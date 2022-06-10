@@ -8,6 +8,7 @@ Chess page
    about us, gallery, contact + paymnets
 1. remove login.html (add later to nav)
 1. verify copyright syntaxt
+1. fix titles on html pages, start adding content
 
 # To-do
 
