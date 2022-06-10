@@ -2,12 +2,18 @@
 
 Chess page
 
+# Today
+
+1. nav with links to pages according to current site plus payments: updates,
+   about us, gallery, contact + paymnets
+1. remove login.html (add later to nav)
+1. verify copyright syntaxt
+
 # To-do
 
+1. add image to home, cover page
+1. start adding content to each htmp file
 1. Transfer homepage content
-1. make navigation bar: updates, aboutm gallery, contact
-1. structure navs
-1. verify copyright syntaxt
 
 # Desired Navs
 
