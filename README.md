@@ -13,7 +13,7 @@ Chess page
 # To-do
 
 1. add image to home, cover page
-1. start adding content to each htmp file
+1. start adding content to each html file
 1. Transfer homepage content
 
 # Desired Navs
