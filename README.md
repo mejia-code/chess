@@ -2,19 +2,9 @@
 
 Chess page
 
-# Today
-
-1. nav with links to pages according to current site plus payments: updates,
-   about us, gallery, contact + paymnets
-1. remove login.html (add later to nav)
-1. verify copyright syntaxt
-1. fix titles on html pages, start adding content
-
-# To-do
-
-1. add image to home, cover page
-1. start adding content to each html file
-1. Transfer homepage content
+To-do
+1. fix link of publish github
+1. update copyright to 2021
 
 # Desired Navs
 
