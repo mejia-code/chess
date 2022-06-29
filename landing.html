@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://unpkg.com/css-doodle@0.28.1/css-doodle.min.js"></script>
+    <script type="module" src="chess.js"></script>
+    <title>Ashwood Knights Chess Club</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        font-family: "Open Sans", sans-serif;
+        color: white;
+        padding: 30px;
+        height: 100vh;
+      }
+
+      .background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+
+      header {
+        /* large text */
+        font-size: 2.0rem;
+      }
+
+      footer {
+
+      }
+
+      main {
+        /* margin top and bottom */
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-color: black;
+        /* 2px white border */
+        border: 2px solid white;
+        /* round the corners */
+        border-radius: 30px;
+        flex: 1;
+      }
+
+      nav {
+        /* align text right */
+        text-align: right;
+        padding: 30px;
+      }
+
+      nav > a {
+        /* padding 10px */
+        padding: 10px;
+        /* 1px border white */
+        border: 1px solid white;
+        /* remove underlines */
+        text-decoration: none;
+        /* use the pointer */
+        cursor: pointer;
+        /* round the border */
+        border-radius: 10px;
+      }
+
+      a {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <css-doodle class="background">
+      :doodle {
+        @grid: 8 / 8em;
+      }
+      @even {
+        background: #000000;
+      }
+    </css-doodle>
+    <main class="container">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <chess-element></chess-element>
+      <chess-element></chess-element>
+      <chess-element></chess-element>
+    </main>
+    <footer>
+      <p>&copy; 2022 Ashwood Knights Chess Club</p>
+    </footer>
+
+  </body>
+</html>
+
+
+
+<!-- <css-doodle class="background">
+  background: linear-gradient(
+    45deg,
+    @stripe(
+      #000000 50%, #ffffff, #000000, #ffffff
+    )
+  );
+</css-doodle> -->
